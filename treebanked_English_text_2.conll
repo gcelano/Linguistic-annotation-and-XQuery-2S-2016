@@ -1,0 +1,30 @@
+1	John	John	NNP	PERSON	2	nsubj
+2	went	go	VBD	O	0	ROOT
+3	to	to	TO	O	4	case
+4	Leipzig	Leipzig	NNP	LOCATION	2	nmod
+5	last	last	JJ	DATE	6	amod
+6	year	year	NN	DATE	2	nmod:tmod
+7	with	with	IN	O	8	case
+8	hist	hist	NN	O	2	nmod
+9	best	best	JJS	O	10	amod
+10	friend	friend	NN	O	8	dep
+11	.	.	.	O	_	_
+
+1	He	he	PRP	O	2	nsubj
+2	had	have	VBD	O	0	ROOT
+3	a	a	DT	O	5	det
+4	great	great	JJ	O	5	amod
+5	time	time	NN	O	2	dobj
+6	there	there	RB	O	2	advmod
+7	.	.	.	O	_	_
+
+1	He	he	PRP	O	3	nsubj
+2	was	be	VBD	O	3	cop
+3	sad	sad	JJ	O	0	ROOT
+4	when	when	WRB	O	6	advmod
+5	he	he	PRP	O	6	nsubj
+6	had	have	VBD	O	3	advcl
+7	to	to	TO	O	8	mark
+8	come	come	VB	O	6	xcomp
+9	back	back	RB	O	8	advmod
+10	.	.	.	O	_	_
