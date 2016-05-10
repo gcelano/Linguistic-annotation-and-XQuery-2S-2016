@@ -18,3 +18,10 @@ Within an XPath expression you can navigate your document using the following ax
 Look at the syntax of the following example, where the axis is follwed by the name of an element:
 
 `doc("yourfile.xml")/rootNode/token/following::lemma`
+
+Abbreviated syntax:
+
+* `.`  = self::node()
+* `..` = means parent::node()
+* `@`  = attribute::
+* `//` = /descendant-or-self::node()/
