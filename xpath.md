@@ -21,7 +21,12 @@ Look at the syntax of the following example, where the axis is follwed by the na
 
 Abbreviated syntax:
 
-* `.`  = self::node()
-* `..` = means parent::node()
-* `@`  = attribute::
-* `//` = /descendant-or-self::node()/
+abbreviation | meaning
+------- | --------
+`.` | `self::node()`
+`..` | `parent::node()`
+`@` | `attribute::`
+`//` | `/descendant-or-self::node()/`
+`token` | `child::token`
+ `*`| `child::*`
+ `@*`| `attribute::*`
