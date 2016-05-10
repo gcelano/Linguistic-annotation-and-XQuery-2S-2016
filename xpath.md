@@ -6,7 +6,6 @@ Within an XPath expression you can navigate your document using the following ax
 * `child::`
 * `descendant::`
 * `descendant-or-self::`
-* `attribute::`
 * `following::`
 * `following-sibling::`
 * `parent::`
@@ -14,7 +13,8 @@ Within an XPath expression you can navigate your document using the following ax
 * `ancestor-or-self::`
 * `preceding::`
 * `preceding-sibling::`
+* `attribute::`
 
-Look at the following example, where an axis is used in a step
+Look at the syntax of the following example, where the axis is follwed by the name of an element:
 
 `doc("yourfile.xml")/rootNode/token/following::lemma`
